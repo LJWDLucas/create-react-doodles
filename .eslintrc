@@ -1,0 +1,55 @@
+{
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": [
+        "error",
+        {
+          "objects": "only-multiline",
+          "arrays": "only-multiline",
+          "imports": "only-multiline",
+          "exports": "only-multiline",
+          "functions": "never"
+        }
+      ],
+      "jsx-a11y/label-has-for": [ 2, {
+          "components": [ "Label" ],
+          "required": {
+              "every": [ "id" ]
+          },
+          "allowChildren": false
+      }],
+      "import/prefer-default-export": "off",
+      "quotes": "off",
+      "no-confusing-arrow": "off",
+      "no-param-reassign": "off",
+      "import/no-dynamic-require": "off",
+      "no-undef": "error",
+      "no-underscore-dangle": "off",
+      "arrow-body-style": "off",
+      "dot-notation": "off",
+      "no-class-assign": "warn",
+      "class-methods-use-this": "off",
+      "no-nested-ternary": "off",
+      "consistent-return": "off",
+      "indent": "warn",
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ],
+      "jsx-a11y/no-static-element-interactions": "warn",
+      "react/no-unused-prop-types": "warn",
+      "react/no-array-index-key": "warn",
+      "react/prop-types": "warn",
+      "react/no-children-prop": "warn",
+      "react/prefer-stateless-function": "off",
+      "react/require-default-props": "off",
+      "react/forbid-prop-types": "off",
+      "react/jsx-curly-spacing": "off",
+      "react/jsx-indent": "off",
+      "max-len": [
+        "error",
+        160,
+        2
+      ]
+    }
+  }
